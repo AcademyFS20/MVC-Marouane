@@ -1,0 +1,17 @@
+    {   
+    "name": "chat/myapp",
+    "autoload": {
+        "psr-4": {
+            "Chat\\": "src/Controllers",
+            "Providers\\":"src/Providers",
+            "Models\\":"models"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marouane",
+            "email": "m.marouane14@gmail.com"
+        }
+    ],
+    "require": {}
+}

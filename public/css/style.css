@@ -1,0 +1,308 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior:smooth;
+    font-size:62,5%;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* HOME */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+}
+
+
+.forme{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+.container2{
+    display:flex; 
+    flex-direction: row;
+    justify-content:center;
+    background-color: #a0d9ef;
+}
+
+.signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.imagesignup{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.home{
+    background-image: url("https://ak.picdn.net/shutterstock/videos/17346205/thumb/4.jpg");
+    background-size: cover;
+    width:100%;
+    background-attachment: no-repeat;
+    float:left;
+    margin-left: -8.5rem;
+    padding:30px;
+    height: 43.3rem;
+}
+
+
+
+.form{
+    background-color: white; 
+}
+
+.title{
+    color:white;
+    margin-top: 2rem;
+}
+
+.text{
+    margin-top: 2rem;
+    color:white;
+}
+
+/* LOGIN */
+
+
+.form2 {
+    align-items: center;                                                                
+}
+
+.imagelogin{
+    margin-right: 400px;
+}
+
+.formd{
+    margin-left:2rem;
+}
+
+/* SIGNUP */
+
+.signup{
+    margin-top: 3rem;
+}
+
+/* DASHBOARD */
+
+
+
+
+.grid-container {
+    display: grid;
+    width:100%;
+    height: auto;
+    grid-template-areas:
+        'head head head head head head'
+        'side content content content content content'
+        'side content content content content content'
+        'side footer footer footer footer footer';
+
+}
+
+.header{
+    grid-area: head;
+    background-color: #1C96C5;
+    height: 12vh;
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.head{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+}
+
+
+.aside {
+    grid-area:side;
+    background-color: #20A7DB;    
+    height: 90vh;
+}
+
+.content{
+    grid-area: content;
+    height: 30.8rem;
+    width: 90vw;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: solid 2px black;
+
+    
+}
+
+.forma{
+    grid-area: footer;
+    background-color:#B8B8B8;
+    height: 8rem;
+
+}
+
+.formc{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.sidebar{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+   
+}
+
+
+
+.avatar{
+    width:90%;
+    align-items: center;
+
+}
+ul{
+    align-items: center;
+
+}
+
+
+
+.message{
+    box-sizing:content-box;
+    font-size: 20px;
+    line-height: 20rem;
+    height: 6rem;
+    width: 40rem;
+    margin-top: 2%;
+    margin-left:1%;
+}
+
+
+
+.forma{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    gap:7rem;
+}
+
+
+
+/* BUBBLE TEXT LEFT SIDE */
+
+.rowchat{
+    display:flex;
+    flex-direction:row;
+    gap:2%;
+    margin-left: 2%;
+
+}
+
+.messagetext{
+    border: 2px solid green;
+}
+
+.columnchat{
+    display:flex;
+    flex-direction:column;
+}
+
+.flextext{
+    margin-left: 2%;
+    width:45%;
+    border: 2px solid #a0d9ef;
+    border-radius: 7px;
+    background-color:#a0d9ef;
+    color:white;
+    font-weight:bold;
+}
+
+/* RIGHT SIDE BUBBLE TEXT */
+
+.columnchatright{
+    display:flex;
+    flex-direction:column;
+
+}
+
+
+.rowchatright{
+    display:flex;
+    flex-direction:row;
+    gap:2%;
+    margin-left: 55%;
+    margin-right: 2%;
+
+}
+
+.rowtextright{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.flextextright{
+    border: 2px solid #a0d9ef;
+    border-radius: 7px;
+    background-color:#a0d9ef;
+    color:white;
+    font-weight:bold;
+    width:45%;
+    margin-right: 2%;
+
+}
+
+
+.beginchat{
+    margin-top: 1rem;
+}
+
+.file{
+    margin-top: 1rem;
+}
+
+::-webkit-box-shadow{
+	background-color: #B8B8B8	;
+}
+::-webkit-scrollbar
+{
+	width: 16px;
+	background-color: #B8B8B8	;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #606060		;
+}
+
